@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items:center;
+  background-image: linear-gradient(to right, #F9ED69, #F08A5D);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=EB+Garamond&family=Lemonada&family=MonteCarlo&family=Montez&family=Montserrat:wght@779&family=Philosopher:wght@400;700&family=Ubuntu&display=swap');
+
+#root{
+  width: 500px;
+}
+
+h1{
+  color: #222831;
+  font-size: 4.3rem;
+  font-family: Montez;
+  text-decoration: underline;
+  margin-bottom: 0;
+  }
+h3{
+  color: #393E46;
+  font-size: 3rem;
+  font-family: Philosopher;
+  margin-top: 20px;
+}
